@@ -1,0 +1,817 @@
+body {
+	width: 1400px;
+	margin: 0 auto;
+	position: absolute;
+}
+nav {
+	margin-top: 0px;
+	height: 60px;
+	background-color: #373A3C;
+}
+input.logo {
+	width: 96px;
+	height: 29px;
+	background-image: url("img/log.png");
+	text-indent: -9999px;
+	display: inline-block;
+	background-position: 0px 0px;
+}
+input.logo:hover {
+	background-position: 0px -29px;
+}
+input.logo:active {
+	background-position: 0px -58px;
+}
+div.logo {
+	position: absolute;
+	margin-left: 163px;
+    margin-top: 15px;
+}
+@font-face {
+    font-family: HelveticaNeue; /* Имя шрифта */
+    src: url('HelveticaNeue/HelveticaNeueCyr-Roman.ttf'); /* Путь к файлу со шрифтом */
+   }
+a.games {
+    position: absolute;
+    top: 21px;
+    margin-left: 546.98px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.5;
+    transition-duration: .3s;
+}
+a.games:hover {
+	color: #ffffff;
+	opacity: 1;
+}
+img.strelka1 {
+	position: absolute;
+    width: 12px;
+    height: 7px;
+    left: 606px;
+    top: 29px;
+}
+a.consoles {
+    position: absolute;
+    top: 21px;
+    margin-left: 643px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.5;
+    transition-duration: .3s;
+}
+a.consoles:hover {
+	color: #ffffff;
+	opacity: 1;
+}
+img.strelka2 {
+	position: absolute;
+    width: 12px;
+    height: 7px;
+    left: 717px;
+    top: 29px;
+}
+a.community {
+    position: absolute;
+    top: 21px;
+    margin-left: 757px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.5;
+    transition-duration: .3s;
+}
+a.community:hover {
+	color: #ffffff;
+	opacity: 1;
+}
+input.search {
+	position: absolute;
+	padding-left: 16px;
+    max-width: 209.8px;
+    height: 38px;
+    left: 877px;
+    top: 11px;
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input.user {
+	width: 20px;
+	height: 20px;
+	margin-top: 21px;
+	margin-left: 1116px;
+	background-image: url("img/user.png");
+	text-indent: -9999px;
+	display: inline-block;
+	background-position: 0px 0px;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+a.amyx {
+    position: absolute;
+    top: 22px;
+    left: 1141px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.5;
+    transition-duration: .3s;
+}
+img.strelka3 {
+	position: absolute;
+    width: 12px;
+    height: 7px;
+    left: 1220px;
+    top: 29px;
+}
+div.myxbox {
+	max-width: 117px;
+	max-height: 20px;
+}
+div.myxbox:hover input {
+	background-position: 0px -20px;
+}
+div.myxbox:hover a.amyx {
+	color: #ffffff;
+	opacity: 1;
+}
+img.glav {
+	position: absolute;
+	top: 57px;
+	left: 0px;
+}
+.fon {
+	position: absolute;
+	top: 57px;
+	left: 0px;
+	height: 550px;
+	width: 1400px;
+	background: #777777;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+}
+p.call {                        /*надписи на фоне первой стрвницы*/
+	position: absolute;
+	height: 43px;
+    top: 166px;
+	left: 831px;
+	font-family: HelveticaNeue;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+p.call2 {
+	position: absolute;
+    height: 17px;
+    left: 832px;
+    top: 209px;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+div.order {                 /*кнопки на первой странице*/
+	position: absolute;
+    left: 831px;
+    top: 365px;
+    width: 136px;
+    height: 38px;
+
+    background: #8DD83D;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    transition-duration: .3s;
+}
+p.ordertext {
+    position: absolute;
+    height: 21px;
+    left: 21.32%;
+    right: 21.32%;
+    top: calc(50% - 21px/2 - 0.5px);
+
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+div.order:hover {
+	background-color: #50c878;
+}
+div.order:active {
+	border-radius: 15px 4px 15px 4px;
+	-moz-border-radius: 15px 4px 15px 4px;
+	-webkit-border-radius: 15px 4px 15px 4px;
+}
+div.more {
+	position: absolute;
+    left: 980px;
+    top: 365px;
+    width: 148px;
+    height: 38px;
+
+    background: #8DD83D;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    transition-duration: .3s;
+}
+p.moretext {
+    position: absolute;
+    height: 21px;
+    left: 14.86%;
+    right: 19.59%;
+    top: calc(50% - 21px/2 - 0.5px);
+
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+div.more:hover {
+	background-color: #50c878;
+}
+div.more:active {
+	border-radius: 15px 4px 15px 4px;
+	-moz-border-radius: 15px 4px 15px 4px;
+	-webkit-border-radius: 15px 4px 15px 4px;
+}
+
+
+                      /*2 страница*/ 
+content {
+	position: absolute;
+    width: 1400px;
+    height: 2556px;
+    left: 0px;
+    top: 607px;
+    background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%);
+    background: -webkit-radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%);
+    background: -moz-radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%);
+}
+p.toptext {
+	position: absolute;
+    height: 43px;
+    left: 39.57%;
+    right: 39.5%;
+    top: calc(50% - 43px/2 - 1157.5px);
+    top: -webkit-calc(50% - 43px/2 - 1157.5px);
+    top: -moz-calc(50% - 43px/2 - 1157.5px);
+
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    line-height: 42px;
+    color: #435766;
+}
+div.knoporder {               /*кнопки 2 стр*/
+    position: absolute;
+    height: 52px;
+    width: 170px;
+    left: 491px;
+    margin-top: 350px;
+
+    background: #8DD83D;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    transition-duration: .3s;
+}
+p.knoporder {
+	position: absolute;
+    height: 21px;
+    left: 24.12%;
+    right: 24.12%;
+    top: calc(50% - 21px/2 - 2.5px);
+    top: -webkit-calc(50% - 21px/2 - 2.5px);
+    top: -moz-calc(50% - 21px/2 - 2.5px);    
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px; /* identical to box height, or 117% */
+    color: #FFFFFF;
+}
+div.knoporder:hover {
+	background-color: #50c878;
+}
+div.knoptec {
+    position: absolute;
+    height: 52px;
+    width: 235px;
+    left: 675px;
+    margin-top: 350px;
+
+    background: -moz-linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    background: -webkit-linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+p.knoptec {
+    position: absolute;
+    height: 21px;
+    left: 8.94%;
+    right: 8.51%;
+    top: calc(50% - 21px/2 - 2.5px);
+    top: -moz-calc(50% - 21px/2 - 2.5px);
+    top: -webkit-calc(50% - 21px/2 - 2.5px);
+
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px; /* identical to box height, or 117% */
+    color: #FFFFFF;
+}
+div.knoptec:hover {
+	background: -moz-linear-gradient(0deg, #686C6F 0%, #373A3C 100%);
+	background: -webkit-linear-gradient(0deg, #686C6F 0%, #373A3C 100%);
+	background: linear-gradient(0deg, #686C6F 0%, #373A3C 100%);
+}
+
+        /*видео*/
+iframe.vid {
+	position: absolute;
+    left: 255px;
+    margin-top: 505px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+    
+     /*2 картинки и текст после видео*/
+p.life {
+	position: absolute;
+    height: 86px;
+    width: 414px;
+    left: 172px;
+    margin-top: 1185px;
+
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    line-height: 42px;
+    color: #435766;
+}
+img.life {
+	position: absolute;
+	left: 712px;
+	margin-top: 1165px;
+	border: 1px solid #CECECE;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+img.the {
+	position: absolute;
+	left: 164px;
+	margin-top: 1621px;
+	border: 1px solid #CECECE;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+p.the {
+	position: absolute;
+    height: 43px;
+    width: 414px;
+    left: 757px;
+    margin-top: 1641px;
+
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    line-height: 42px;
+    color: #435766;
+}
+          /*самй нижний текст*/
+p.tech {
+	position: absolute;
+    height: 43px;
+    left: 493px;
+    margin-top: 2085px;
+
+    font-family: HelveticaNeue;
+    font-size: 36px;
+    line-height: 42px;  /* identical to box height */
+    color: #435766;
+}
+p.comp {
+	position: absolute;
+	height: 72px;
+	width: 320px;
+    left: 163px;
+    margin-top: 2175px;
+
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    line-height: 24px; /* or 114% */
+    color: #435766;
+}
+p.micr {
+	position: absolute;
+	height: 48px;
+	width: 320px;
+    left: 163px;
+    margin-top: 2267px;
+
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    line-height: 24px; /* or 114% */
+    color: #435766;
+}
+p.forw {
+	position: absolute;
+	height: 48px;
+	width: 320px;
+    left: 550px;
+    margin-top: 2175px;
+
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    line-height: 24px; /* or 114% */
+    color: #435766;
+}
+p.goin {
+	position: absolute;
+	height: 48px;
+	width: 320px;
+    left: 550px;
+    margin-top: 2267px;
+
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    line-height: 24px; /* or 114% */
+    color: #435766;
+}
+p.part {
+	position: absolute;
+	height: 48px;
+	width: 320px;
+    left: 933px;
+    margin-top: 2175px;
+
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    line-height: 24px; /* or 114% */
+    color: #435766;
+}
+p.getth {
+	position: absolute;
+	height: 48px;
+	width: 320px;
+    left: 933px;
+    margin-top: 2267px;
+
+    font-family: HelveticaNeue;
+    font-size: 21px;
+    line-height: 24px; /* or 114% */
+    color: #435766;
+}
+         /*нижние кнопки*/
+
+div.xboxk {
+	position: absolute;
+	height: 52px;
+	width: 235px;
+    left: 457px;
+    margin-top: 2395px;
+    background: -moz-linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    background: -webkit-linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+div.xboxk:hover {
+	background: -moz-linear-gradient(0deg, #686C6F 0%, #373A3C 100%);
+	background: -webkit-linear-gradient(0deg, #686C6F 0%, #373A3C 100%);
+	background: linear-gradient(0deg, #686C6F 0%, #373A3C 100%);
+}
+p.xboxk {
+	position: absolute;
+    height: 21px;
+    left: 22.55%;
+    right: 22.55%;
+    top: -webkit-calc(50% - 21px/2 - 2.5px);
+    top: -moz-calc(50% - 21px/2 - 2.5px);
+    top: calc(50% - 21px/2 - 2.5px);
+
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px; /* identical to box height, or 117% */
+    color: #FFFFFF;
+}
+div.starts {
+	position: absolute;
+	height: 52px;
+	width: 235px;
+    left: 708px;
+    margin-top: 2395px;
+    background: #8DD83D;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    transition-duration: .3s;
+}
+div.starts:hover {
+	background-color: #50c878;
+}
+p.starts {
+	position: absolute;
+    height: 21px;
+    left: 7.66%;
+    right: 8.09%;
+    top: -moz-calc(50% - 21px/2 - 2.5px);
+    top: -webkit-calc(50% - 21px/2 - 2.5px);
+    top: calc(50% - 21px/2 - 2.5px);
+
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px;  /* identical to box height, or 117% */
+    color: #FFFFFF;
+}
+        /*футер, нажняя часть сайта*/
+
+footer {
+	position: absolute;
+    width: 1400px;
+    height: 395px;
+    left: 0px;
+    top: 3163px;
+
+    background: #373A3C;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+              /*зелёные кнопки*/ 
+a.footx {
+	position: absolute;
+    height: 22px;
+    margin-left: 165px;
+    margin-top: 58px;
+
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+    text-decoration: none;
+}
+a.footx:hover {
+	color: #50c878;
+}
+a.footd {
+	position: absolute;
+    height: 22px;
+    margin-left: 551px;
+    margin-top: 58px;
+
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+    text-decoration: none;
+}
+a.footd:hover {
+	color: #50c878;
+}
+a.footf {
+	position: absolute;
+    height: 22px;
+    width: 85px;
+    margin-left: 926px;
+    margin-top: 58px;
+
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+    text-decoration: none;
+}
+a.footf:hover {
+	color: #50c878;
+}
+      /*иконки в футаре*/
+
+input.faace {
+	position: absolute;
+	margin-left: 926px;
+	margin-top: 108px;
+	width: 11px;
+	height: 20px;
+	background-image: url("img/faace.png");
+	text-indent: -9999px;
+	display: inline-block;
+	background-position: 0px 0px;
+}
+input.faace:hover {
+	background-position: 0px -20px;
+}
+input.twit {
+	position: absolute;
+	margin-left: 957px;
+	margin-top: 109px;
+	width: 21px;
+	height: 18px;
+	background-image: url("img/twit.png");
+	text-indent: -9999px;
+	display: inline-block;
+	background-position: 0px 0px;
+}
+input.twit:hover {
+	background-position: 0px -18px;
+}
+input.inst {
+	position: absolute;
+	margin-left: 998px;
+	margin-top: 109px;
+	width: 19px;
+	height: 19px;
+	background-image: url("img/inst.png");
+	text-indent: -9999px;
+	display: inline-block;
+	background-position: 0px 0px;
+}
+input.inst:hover {
+	background-position: 0px -19px;
+}
+         /*первый белый блок в футоре*/
+
+a.suuup {
+	position: absolute;
+    height: 17px;
+    width: 51px;
+    margin-left: 165px;
+    margin-top: 114px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;
+}
+a.suuup:hover {
+	color: #7DD42F;
+}
+a.cooon {
+	position: absolute;
+    height: 17px;
+    width: 69px;
+    margin-left: 165px;
+    margin-top: 160px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;
+}
+a.cooon:hover {
+	color: #7DD42F;
+}
+a.prrri {
+	position: absolute;
+    height: 17px;
+    width: 111px;
+    margin-left: 165px;
+    margin-top: 205px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;
+}
+a.prrri:hover {
+	color: #7DD42F;
+}
+a.teeer {
+	position: absolute;
+    height: 17px;
+    width: 80px;
+    margin-left: 165px;
+    margin-top: 251px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;
+}
+a.teeer:hover {
+	color: #7DD42F;
+}
+         /*левый белый блок в футоре*/ 
+
+a.gaaam {
+	position: absolute;
+    height: 17px;
+    width: 45px;
+    margin-left: 551px;
+    margin-top: 114px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;   
+}
+a.gaaam:hover {
+	color: #7DD42F;	
+}
+a.wiiin {
+	position: absolute;
+    height: 17px;
+    width: 78px;
+    margin-left: 551px;
+    margin-top: 160px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;   
+}
+a.wiiin:hover {
+	color: #7DD42F;	
+}
+a.crrre {
+	position: absolute;
+    height: 17px;
+    width: 112px;
+    margin-left: 551px;
+    margin-top: 205px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;   
+}
+a.crrre:hover {
+	color: #7DD42F;	
+}
+a.deees {
+	position: absolute;
+    height: 17px;
+    width: 122px;
+    margin-left: 551px;
+    margin-top: 251px;
+    text-decoration: none;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 16px;  /* identical to box height */
+    color: #FFFFFF;   
+}
+a.deees:hover {
+	color: #7DD42F;	
+}
+           /*нижняя полоска и две надписи*/
+
+div.polos {
+	position: absolute;
+    left: 7.14%;
+    right: 7.14%;
+    top: 80.25%;
+    bottom: 19.24%;
+
+    mix-blend-mode: normal;
+    opacity: 0.35;
+    border: 1px solid #FFFFFF;
+}
+p.enng {
+	position: absolute;
+    height: 19px;
+    width: 162px;
+    margin-top: 338px;
+    margin-left: 100px;
+
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 19px; /* identical to box height */
+    color: #FFFFFF;
+}
+p.miic {
+	position: absolute;
+    height: 19px;
+    width: 129px;
+    margin-top: 338px;
+    margin-left: 1170px;
+
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 19px;  /* identical to box height */
+    color: #FFFFFF;
+}
