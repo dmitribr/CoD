@@ -815,3 +815,8 @@ p.miic {
     line-height: 19px;  /* identical to box height */
     color: #FFFFFF;
 }
+body, nav, .dop, header, .fon, content, footer {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
