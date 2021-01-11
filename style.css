@@ -1,7 +1,5 @@
 body {
 	width: 1400px;
-	margin: 0 auto;
-	position: absolute;
 }
 nav {
 	margin-top: 0px;
@@ -816,7 +814,5 @@ p.miic {
     color: #FFFFFF;
 }
 body, nav, .dop, header, .fon, content, footer {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin: 0px auto;
 }
